@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+        Out Of The Woods - Jason Gunter - 300742344 - May 23rd,2015
+        -----------------------------------------------------------
+        This is a simple game where the user attempts to chose the correct path to safety.
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Out Of The Woods</title>
+    <!--CSS SECTION-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body onload="init();">
+    <div id="impress">
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <div id="mainmenu">
+                    <h1>Main Menu</h1>
+                    <hr />
+                    Welcome to <span class="spook">Out of the Woods</span><br />
+                    Press "Begin" to start the game<br />
+                    <img src="assets/img/ml.png" width="275" height="330" />
+                    <hr />
+                    <a href="#2">Begin Game</a>
+                </div>
+            </div>
+        </div>
+        <div id="2" class="step slide" data-y="1500">
+            <div class="slide-text">
+                <p>Flip the switch Demo this is 2</p>
+                <a href="#1">Back to page 1</a>
+            </div>
+        </div>
+        <div id="3" class="step slide" data-y="3000">
+            <div class="slide-text">
+                <p>Flip the switch Demo - this is 3</p>
+                <a href="#1">Back to page 1</a>
+            </div>
+        </div>
+    </div>
+    <!--JAVASCRIPT SECTION-->
+    <script src="Scripts/lib/impress.js"></script>
+    <script src="Scripts/game.js"></script>
+</body>
+</html>
