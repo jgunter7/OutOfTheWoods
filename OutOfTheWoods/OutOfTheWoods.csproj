@@ -86,6 +86,7 @@
     <Content Include="assets\img\teleporter.gif" />
     <Content Include="assets\img\town_edge.jpg" />
     <Content Include="assets\img\main_back.jpg" />
+    <Content Include="assets\img\waterfall.jpg" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
     <Content Include="index.html" />

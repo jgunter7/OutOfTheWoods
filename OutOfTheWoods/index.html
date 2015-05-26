@@ -6,8 +6,8 @@
         Source File: OutOfTheWoods.sln
         Author's: Jason Gunter - 300742344
         Last Modified By: Jason Gunter
-        Date Last Modified: May 25th, 2015
-        Program Description: This is a simple game where the user attempts to chose the correct path to safety.
+        Date Last Modified: May 26th, 2015
+        Program Description: This is a simple game where the user attempts to choose the correct path to safety.
         Revision History: https://github.com/jgunter7/OutOfTheWoods
         --------------------------------------------------------------------------------------------------------
     -->
@@ -41,7 +41,7 @@
                     </div>
                     <div id="floaterR">
                         <a href="#2">Begin Game</a>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,6 +168,7 @@
                     </div>
                 </div>
                 <hr />
+                <center><a href="#1">Back to Main Menu</a></center>
             </div>
         </div>
         <!--ROPE-DOWN Screen ----------------------------------------------------->
@@ -228,7 +229,11 @@
                     You know that a waterfall is up ahead, but you can't escape the current pulling you towards it.
                     Before you know it, you fall over the edge and plummet to your death.
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <br />
+                    <img src="assets/img/waterfall.jpg" height="275" width="300" /><br /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--STREAM RIGHT PATH Screen ---------------------------------------------------------->
@@ -240,7 +245,10 @@
                     noticing some very wierd rashes on your arms! As you round the bend you see an old, run down nuclear plant.
                     It seems that you now have radiation poisoning, and that was your last thought...
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <img src="assets/img/nuke.jpg" height="275" width="300" /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--HUMMING NOISE Screen ---------------------------------------------------------->
@@ -252,7 +260,10 @@
                     you hack your way through the remainder of the thicker part of the forest, you stumble into a clearing...
                     You figure out why you don't feel so good, your within 100 feet of a run-down nuclear plant...
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <img src="assets/img/nuke.jpg" height="275" width="300" /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--ROAD Screen ---------------------------------------------------------->
@@ -260,29 +271,34 @@
             <div class="slide-text">
                 <p>
                     You make it to the road, as you walk down you notice that their are all kinds of stains and bones
-                    scattered along the ditches. You pass a sign with nothing written on it, thinking that it is really wierd.
-                    You hear a growl from behind you! You turn around, but nothing is there, except the sign has words on the
+                    scattered along the ditches. You pass a sign with nothing written on it and you hear a growl from
+                    behind you! You turn around, but nothing is there, except the sign has words on the
                     other side... beware of bears! Not just any bears you soon notice! The bears have mutated
                     from exposure to radiation, and a huge one is running towards you! You turn to run..and.. well.. you die.
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <img src="assets/img/road.jpg" height="275" width="300" /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--SLIDE-DOWN Screen ----------------------------------------------------->
         <div id="slided" class="step slide" data-x="1500" data-y="6000">
             <div class="slide-text">
                 <p>
-                    You slide down the cliff, whihc starts off okay, but you quickly lose your footing and gain speed. You
-                    end up rolling and falling down the cliff, hitting trees and rocks, until you finally lose consciousness.
-                    <br />
-                    You wake up in a bright white room, in what looks to be a hospital bed. A *beep* noise is made and a large
-                    glass door slides open, revealing a couple of army men in uniform. They tell you, you are lucky to be alive,
-                    you were about to be lunch to some animals before they found your body. They explain that you are in a hidden
+                    You slide down the cliff, but you quickly lose your footing and gain speed. You
+                    end up rolling and falling down the cliff, hitting trees and rocks, until you finally lose consciousness.<br />
+                    -----------------------------------<br />
+                    You wake up in a bright white room, in what looks to be a hospital bed. A large
+                    glass door slides open, revealing a couple of army men in uniform. They explain that you are in a hidden
                     military base and you are safe from the outside world, but you have severe brain damage which wiped most of
                     your memory!
                 </p>
-                <a href="JavaScript:SeeMore();">1 Month later...</a>
-                <a href="#1">Quit to Main Menu</a>
+                <center>
+                    <img src="assets/img/militaryb.jpg" height="200" width="250" /><br />
+                    <a href="JavaScript:SeeMore();">1 Month later...</a>
+                    <a href="#1">Quit to Main Menu</a>
+                </center>
             </div>
         </div>
         <!--BERRY Screen ----------------------------------------------------->
@@ -292,33 +308,42 @@
                     You go across the ridge to eat the berries. Your almost to the bush when the ridge below you gives way, causing
                     you to plummet down the highest part of the cliff. You black out when you hit the ground.. well... because your dead.
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <br />
+                    <img src="assets/img/rcliff.jpg" height="275" width="300" /><br /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--Dine+Dash Screen ----------------------------------------------------->
         <div id="dine" class="step slide" data-x="4500" data-y="6000">
             <div class="slide-text">
                 <p>
-                    You grab as many plants as you can and begin running directly away from the small town. You hear yelling and screaming
-                    behind you and you know you have been spotted! Next you hear gun shots and you start running a zig-zag pattern to avoid
-                    being hit by bullets. You know it is stupid, but it has to be better than running in a straight line! AHhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!!!<br />
-                    You trip over a trap that rips into your upper leg. You crash to the ground, wondering what has happened that farmers needed such big traps!
-                    You lose consiousness and bleed out before the crazy farmers reach your body...
+                    You grab as many plants as you can and begin running away. You hear yelling and screaming
+                    behind you and realize you have been spotted! Next you hear gun shots, but you trip over a
+                    trap that rips into your upper leg. You crash to the ground, wondering what has happened
+                    that farmers need such big traps! You lose consiousness and bleed out before the crazy farmers reach your body.
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <br />
+                    <img src="assets/img/town_edge.jpg" height="275" width="300" /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
         <!--ENTER TOWN Screen ----------------------------------------------------->
         <div id="enter" class="step slide" data-x="6000" data-y="6000">
             <div class="slide-text">
                 <p>
-                    You decide to play it cool, and see what the locals can tell you about the area. As soon as you enter the main gate, people start screaming and
-                    running away from you. The sheriff draws his weapon and tells you to stop moving. He asks where you came from, and of course you reply,
-                    "From the woods", the towns people shudder and the sheriff shakes his head. "No one survives in the woods, and if they do, they dont live very long."
-                    he says, before shooting you, as you fall you see your reflection in a mirror. Your face has been terribly mutated after going through the teleporter,
-                    and your skin is a sick shade of green... The sheriff was probably right, you were probably in for a slow painful death.
+                    As soon as you enter the main gate, people start screaming and
+                    running away from you. The sheriff draws his weapon and he asks where you came from, and of course you reply,
+                    "From the woods", the sheriff shakes his head. "No one survives in the woods, and if they do, they dont live very long."
+                    he says, before shooting you. As you fall you see your reflection in a puddle, you body has mutated from the teleporter, and your skin was a sick shade of green.
                 </p>
-                <a href="#1">Quit to Main Menu</a>
+                <div class="tmid">
+                    <img src="assets/img/sheriff.jpg" height="275" width="300" /><br />
+                    <a href="#1">Quit to Main Menu</a>
+                </div>
             </div>
         </div>
     </div>
